@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Legal Notice, Terms of Use & Privacy Policy | HookNote</title>
+  <meta name="description" content="Legal notice, terms of use and privacy policy for HookNote. App developed by DayCraft Studio Apps." />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <!-- ✅ Update canonical + og:url for the /en/ version -->
+  <link rel="canonical" href="https://daycraftstudioapps.github.io/HookNote-legal/en/" />
+  <link rel="alternate" hreflang="es" href="https://daycraftstudioapps.github.io/HookNote-legal/" />
+  <link rel="alternate" hreflang="en" href="https://daycraftstudioapps.github.io/HookNote-legal/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://daycraftstudioapps.github.io/HookNote-legal/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="HookNote" />
+  <meta property="og:title" content="Legal Notice & Privacy Policy | HookNote" />
+  <meta property="og:description" content="Terms of use and privacy policy for HookNote (GDPR). Data processed, purpose, retention and user rights." />
+  <meta property="og:url" content="https://daycraftstudioapps.github.io/HookNote-legal/en/" />
+  <meta property="og:image" content="https://daycraftstudioapps.github.io/HookNote-legal/og-image.png" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Legal Notice & Privacy Policy | HookNote" />
+  <meta name="twitter:description" content="Terms of use and privacy policy for HookNote (GDPR)." />
+  <meta name="twitter:image" content="https://daycraftstudioapps.github.io/HookNote-legal/og-image.png" />
+
+  <link rel="icon" href="../favicon.ico" />
+
+  <style>
+    :root{
+      --bg: #0b0f17;
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.70);
+      --border: rgba(255,255,255,.10);
+      --accent: #9aa7ff;
+      --ok: #34d399;
+      --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      --mono: ui-monospace, SFMono-Regular, monospace;
+      --max: 920px;
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+
+    body{
+      margin:0;
+      font-family: var(--sans);
+      color: var(--text);
+      background: var(--bg);
+      line-height:1.65;
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+
+    a{color:inherit; transition: color .2s}
+    a:hover{color:white}
+
+    .wrap{
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 26px 18px 90px;
+    }
+
+    header{
+      position:sticky;
+      top:0;
+      z-index:5;
+      backdrop-filter: blur(12px);
+      background: rgba(11,15,23,.90);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav{
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 12px 18px;
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .brand{
+      text-decoration:none;
+      font-weight:700;
+      font-size: 1.1rem;
+      display:flex;
+      align-items:center;
+      gap:10px;
+      white-space: nowrap;
+    }
+
+    .navlinks{
+      display:flex;
+      gap:14px;
+      align-items:center;
+      font-size: .9rem;
+      flex-wrap: wrap;
+    }
+
+    .navlinks a:not(.btn-store){
+      padding: 5px 0;
+      text-decoration:none;
+      color: var(--muted)
+    }
+    .navlinks a:not(.btn-store):hover{color: var(--text)}
+
+    .btn-store{
+      display:inline-flex;
+      align-items:center;
+      padding: 6px 12px;
+      background: rgba(255,255,255,.1);
+      border: 1px solid rgba(255,255,255,.2);
+      border-radius: 8px;
+      text-decoration:none;
+      font-size: .85rem;
+      font-weight: 600;
+      color: white !important;
+      transition: background .2s;
+      white-space: nowrap;
+    }
+    .btn-store:hover{background: rgba(255,255,255,.2)}
+
+    .hero{padding: 30px 0 20px}
+    h1{margin: 10px 0; line-height:1.2; font-size: clamp(1.8rem, 4vw, 2.5rem)}
+    .sub{color: var(--muted); margin-bottom: 20px; max-width: 72ch}
+
+    .meta{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px}
+    .badge{
+      padding: 6px 10px;
+      background: rgba(255,255,255,.05);
+      border-radius: 6px;
+      font-size:.85rem;
+      color: var(--muted);
+      border: 1px solid var(--border);
+    }
+    .ok{color: var(--ok)}
+
+    .toc{
+      margin-top: 18px;
+      display:grid;
+      gap: 6px;
+      max-width: 600px;
+      padding-left: 0;
+      list-style: none;
+    }
+    .toc a{
+      display:block;
+      text-decoration:none;
+      color: var(--muted);
+      padding: 8px 0 8px 10px;
+      border-left: 2px solid transparent;
+    }
+    .toc a:hover{
+      color: var(--text);
+      border-left-color: var(--accent);
+    }
+
+    section.block{
+      padding: 30px 0;
+      border-top: 1px solid var(--border);
+    }
+    section.block:first-of-type{border-top:0}
+
+    h2{font-size: 1.4rem; margin: 0 0 10px; color:white}
+    h3{font-size: 1.1rem; margin: 24px 0 8px; color:white}
+
+    p, li{color: rgba(255,255,255,.8); margin-bottom: 10px}
+    ul, ol{margin-left: 20px}
+
+    .callout{
+      margin: 16px 0;
+      padding: 14px;
+      background: rgba(154,167,255,.06);
+      border-left: 3px solid var(--accent);
+      border-radius: 6px;
+    }
+
+    .grid2{
+      display:grid;
+      gap: 14px;
+      grid-template-columns: 1fr;
+      margin: 14px 0 8px;
+    }
+    @media (min-width: 768px){ .grid2{grid-template-columns: 1fr 1fr} }
+
+    .kbd{
+      font-family: var(--mono);
+      background: rgba(255,255,255,.1);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.85em;
+      border: 1px solid rgba(255,255,255,.1);
+      display: inline-block;
+    }
+
+    footer{
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align:center;
+      color: var(--muted);
+      font-size: .9rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    :target{ scroll-margin-top: 80px; }
+  </style>
+</head>
+
+<body>
+<header>
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#top">
+      <span>HookNote</span>
+    </a>
+    <div class="navlinks">
+      <a href="#terms">Terms</a>
+      <a href="#privacy">Privacy</a>
+
+      <!-- Language switch -->
+      <a href="../" class="btn-store" aria-label="View Spanish version">ES</a>
+
+      <!-- Store button (placeholder) -->
+      <a href="#" class="btn-store">Download App</a>
+    </div>
+  </nav>
+</header>
+
+<div class="wrap" id="top">
+  <section class="hero">
+    <h1>Legal Notice, Terms of Use & Privacy Policy</h1>
+    <p class="sub">
+      Legal document for <strong>HookNote</strong>. Here you will find the <strong>Terms & Conditions of Use</strong> and the
+      <strong>Privacy Policy</strong> in accordance with the GDPR.
+    </p>
+
+    <div class="meta" role="list">
+      <span class="badge" role="listitem">Effective date: <strong>February 1, 2026</strong></span>
+      <span class="badge" role="listitem">Dev: <strong>DayCraft Studio Apps</strong></span>
+      <span class="badge" role="listitem"><span class="ok">●</span> No ads or analytics</span>
+    </div>
+
+    <ul class="toc" aria-label="Table of contents">
+      <li><a href="#terms">📜 Terms & Conditions of Use</a></li>
+      <li><a href="#purpose">1. Purpose of the App</a></li>
+      <li><a href="#conditions">2. Conditions of Use</a></li>
+      <li><a href="#webhooks">3. Webhooks & Liability</a></li>
+      <li><a href="#ownership">4. Content & Ownership</a></li>
+      <li><a href="#updates">5. Updates & Availability</a></li>
+      <li><a href="#limitation">6. Limitation of Liability</a></li>
+      <li><a href="#jurisdiction">7. Governing Law & Jurisdiction</a></li>
+      <li style="margin-top:10px;"><a href="#privacy">🛡️ Privacy Policy</a></li>
+      <li><a href="#controller">1. Data Controller</a></li>
+      <li><a href="#whatitdoes">2. What HookNote Does</a></li>
+      <li><a href="#data">3. Data Processed</a></li>
+      <li><a href="#legalbasis">4. Purpose & Legal Basis</a></li>
+      <li><a href="#processing">5. Where & How Data Is Processed</a></li>
+      <li><a href="#retention">6. Retention</a></li>
+      <li><a href="#recipients">7. Recipients</a></li>
+      <li><a href="#permissions">8. Device Permissions</a></li>
+      <li><a href="#security">9. Security</a></li>
+      <li><a href="#minors">10. Minors</a></li>
+      <li><a href="#rights">11. User Rights</a></li>
+      <li><a href="#changes">12. Policy Changes</a></li>
+      <li style="margin-top:10px;"><a href="#contact">📩 Contact</a></li>
+    </ul>
+  </section>
+
+  <main>
+    <section class="block" id="terms">
+      <h2>📜 Terms & Conditions of Use – HookNote</h2>
+      <p class="small">Last updated: <strong>February 1, 2026</strong></p>
+
+      <p>
+        Welcome to <strong>HookNote</strong>, a mobile app developed by <strong>DayCraft Studio Apps (by J. Martínez H.)</strong>
+        (“the Developer”). By downloading, installing, or using HookNote, the user (“you” or “the user”) agrees to comply with these
+        <strong>Terms & Conditions of Use</strong>. If you do not agree, please do not use the app.
+      </p>
+
+      <h3 id="purpose">1. Purpose of the App</h3>
+      <p>HookNote is a free mobile app that allows you to:</p>
+      <ul>
+        <li>Record audio from your device microphone and send it to user-configured webhooks.</li>
+        <li>Write text and send it in the same way.</li>
+      </ul>
+
+      <div class="callout">
+        <strong>Important:</strong> the app acts solely as a technical intermediary between the user’s device and the destination service configured by the user.
+        <strong>HookNote does not store, process, or access the transmitted data.</strong>
+      </div>
+
+      <h3 id="conditions">2. Conditions of Use</h3>
+      <ul>
+        <li>You agree to use the app in compliance with applicable laws, good faith, and public order.</li>
+        <li>It is prohibited to use HookNote for unlawful, defamatory, offensive, discriminatory purposes, or in ways that infringe third-party rights.</li>
+        <li>You may not modify, decompile, reverse engineer, or commercially exploit the app without explicit authorization.</li>
+      </ul>
+
+      <h3 id="webhooks">3. Webhooks & Liability</h3>
+      <ul>
+        <li>You are <strong>solely responsible</strong> for configuring and managing your webhooks, including the security of the URLs used.</li>
+        <li>The Developer <strong>does not control, monitor, or have access</strong> to the transmitted content.</li>
+        <li>Any misuse, data loss, or security incident related to destination services is the responsibility of the user or the webhook provider.</li>
+      </ul>
+
+      <h3 id="ownership">4. Content & Ownership</h3>
+      <ul>
+        <li>All content created and sent through HookNote belongs exclusively to the user.</li>
+        <li>The Developer does not claim rights over such content.</li>
+        <li>The software, name, design, logo, and source code of HookNote are owned by the Developer and protected by intellectual property laws.</li>
+      </ul>
+
+      <h3 id="updates">5. Updates & Availability</h3>
+      <p>
+        HookNote may be updated, modified, or discontinued at any time, with or without notice.
+        Some older versions may become obsolete and require an update to continue working.
+      </p>
+
+      <h3 id="limitation">6. Limitation of Liability</h3>
+      <p>HookNote is provided “as is” without warranties of uninterrupted or error-free operation.</p>
+      <p>The Developer is not liable for:</p>
+      <ul>
+        <li>Damages arising from the use of, or inability to use, the app.</li>
+        <li>Network failures, data loss, webhook configuration errors, or user misuse.</li>
+        <li>Consequences of data processing by third-party recipients.</li>
+      </ul>
+
+      <h3 id="jurisdiction">7. Governing Law & Jurisdiction</h3>
+      <p>
+        These Terms shall be governed and construed in accordance with Spanish law.
+        Any dispute shall be submitted to the competent courts of the Developer’s place of residence.
+      </p>
+    </section>
+
+    <section class="block" id="privacy">
+      <h2>🛡️ Privacy Policy – HookNote</h2>
+      <p class="small">Last updated: <strong>February 1, 2026</strong></p>
+
+      <p>
+        At <strong>HookNote</strong>, developed by <strong>DayCraft Studio Apps (by J. Martínez H.)</strong>, we respect your privacy and are committed to protecting your personal data.
+        This Policy explains how we handle information in accordance with the <strong>General Data Protection Regulation (EU) 2016/679 (GDPR)</strong> and other applicable laws.
+      </p>
+
+      <div class="grid2">
+        <div class="callout" id="controller">
+          <strong>1. Data Controller</strong><br />
+          DayCraft Studio Apps (by J. Martínez H.)<br />
+          Contact: <a href="mailto:daycraftstudioapps@gmail.com">daycraftstudioapps@gmail.com</a>
+        </div>
+        <div class="callout">
+          <strong>Quick summary</strong><br/>
+          • Data is handled on-device<br/>
+          • No developer servers<br/>
+          • No ads or analytics
+        </div>
+      </div>
+
+      <h3 id="whatitdoes">2. What HookNote Does</h3>
+      <p>HookNote performs only two functions:</p>
+      <ol>
+        <li><strong>Record audio</strong> and send it to user-configured webhooks.</li>
+        <li><strong>Send text</strong> written by the user to those webhooks.</li>
+      </ol>
+      <p>The app is <strong>free</strong>, <strong>ad-free</strong>, and <strong>does not include analytics or tracking SDKs</strong>.</p>
+
+      <h3 id="data">3. Data Processed</h3>
+      <p>HookNote processes only the minimum data required to function:</p>
+      <ul>
+        <li><strong>Content you provide</strong>: audio or text.</li>
+        <li><strong>Configured webhooks</strong>: alias and URL (1 to 5).</li>
+        <li><strong>Local metadata</strong>: delivery status, date/time.</li>
+      </ul>
+      <p><strong>📌 No data is collected, stored, or processed on the Developer’s servers.</strong></p>
+
+      <h3 id="legalbasis">4. Purpose & Legal Basis (GDPR)</h3>
+      <ul>
+        <li><strong>Purpose</strong>: to enable sending audio or text to user-configured webhooks.</li>
+        <li><strong>Legal basis</strong>:
+          <ul>
+            <li><strong>Performance of a contract</strong> (Art. 6(1)(b) GDPR): providing the requested service.</li>
+            <li><strong>Consent</strong> (Art. 6(1)(a) GDPR): microphone use and sending to selected webhooks.</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3 id="processing">5. Where & How Data Is Processed</h3>
+      <ul>
+        <li>Processing occurs <strong>only on your device</strong>.</li>
+        <li>Data is transmitted <strong>directly</strong> to the configured webhooks without passing through the Developer’s servers.</li>
+        <li>HookNote <strong>does not receive, store, or intermediate</strong> this data.</li>
+      </ul>
+
+      <h3 id="retention">6. Retention</h3>
+      <ul>
+        <li>HookNote <strong>does not retain personal data</strong>.</li>
+        <li>After sending, the app <strong>clears the information</strong>.</li>
+        <li><strong>Temporary files</strong> (such as recorded audio) may remain on your device and you can delete them.</li>
+        <li>Retention within webhooks depends on the destination service.</li>
+      </ul>
+
+      <h3 id="recipients">7. Recipients & International Transfers</h3>
+      <ul>
+        <li>The only recipients are the <strong>webhooks configured by the user</strong>.</li>
+        <li>If a recipient service is outside the EU/EEA, any <strong>international transfer depends solely on the user’s decision</strong>.</li>
+        <li>We recommend reviewing the privacy policies of those services.</li>
+      </ul>
+
+      <h3 id="permissions">8. Device Permissions</h3>
+      <p>For operation, HookNote may request:</p>
+      <ul>
+        <li>🎤 <strong>Microphone</strong>: to record audio.</li>
+        <li>🌐 <strong>Internet</strong>: to send data to webhooks.</li>
+        <li>📁 <strong>Storage</strong>: to create, read, or delete temporary files (audio or text).</li>
+      </ul>
+      <p>You can manage or revoke these permissions in your device settings. Missing permissions may prevent some features (e.g., without microphone access, audio cannot be recorded).</p>
+
+      <h3 id="security">9. Security</h3>
+      <ul>
+        <li>HookNote uses native OS mechanisms, including <strong>scoped storage</strong>, to minimize file access.</li>
+        <li>We recommend using <strong>HTTPS</strong> webhooks to reduce interception risks.</li>
+        <li>Security and any further processing depend on the destination services.</li>
+      </ul>
+
+      <h3 id="minors">10. Minors</h3>
+      <p>HookNote is a general-purpose app and is <strong>not specifically directed at minors</strong>.</p>
+      <p>If a minor uses the app, sending data to third parties is subject to those services’ policies. Adult supervision is recommended.</p>
+
+      <h3 id="rights">11. User Rights</h3>
+      <p>You have the right to:</p>
+      <ul>
+        <li>Access your personal data.</li>
+        <li>Rectify or delete it.</li>
+        <li>Object to processing.</li>
+        <li>Restrict processing.</li>
+        <li>Request data portability.</li>
+      </ul>
+      <p>
+        Since data is stored and processed only on your device or in external services you choose, you generally exercise these rights by:
+      </p>
+      <ul>
+        <li>Deleting content within the app or uninstalling it.</li>
+        <li>Contacting the destination services directly.</li>
+      </ul>
+      <p>
+        You may also lodge a complaint with your supervisory authority (in Spain, the <span class="kbd">Spanish Data Protection Agency (AEPD)</span>) or another competent authority.
+      </p>
+
+      <h3 id="changes">12. Policy Changes</h3>
+      <p>
+        We may update this Privacy Policy at any time.
+        If we make material changes, we will notify you in the app or through other appropriate means.
+        The new version will state its <strong>effective date</strong>.
+      </p>
+
+      <p style="margin-top:20px;"><strong>✅ By installing and using HookNote, you expressly accept these Terms and this Privacy Policy.</strong></p>
+    </section>
+
+    <section class="block" id="contact">
+      <h2>📩 Contact</h2>
+      <p>
+        For privacy-related questions or this document, you can contact DayCraft Studio Apps:
+        <a href="mailto:daycraftstudioapps@gmail.com"><strong>daycraftstudioapps@gmail.com</strong></a>
+      </p>
+    </section>
+
+    <footer>
+      <a href="#" class="btn-store" style="margin-bottom:12px">
+        Get it on Google Play (Coming soon)
+      </a>
+
+      <p>© <span id="year"></span> DayCraft Studio Apps (by J. Martínez H.) · Legal document (EN)</p>
+    </footer>
+  </main>
+</div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
